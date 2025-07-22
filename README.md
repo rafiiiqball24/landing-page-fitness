@@ -46,7 +46,7 @@ cd webfitness
 ### Install Dependencies
 ```bash
 # Menggunakan npm
-npm install --legacy-peer-deps
+npm install
 
 # Atau menggunakan yarn
 yarn install
