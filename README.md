@@ -3,7 +3,6 @@
 > **Test Case Frontend Intern - CAN Creative**  
 > Slicing Fitness Landing Page sesuai dengan desain Figma yang diberikan
 
-![Fitness Landing Page Preview](https://landing-page-fitness-roan.vercel.app/)
 
 ## 📋 Deskripsi Project
 
@@ -40,7 +39,7 @@ Pastikan kamu sudah menginstall:
 ### Clone Repository
 ```bash
 git clone https://github.com/rafiiiqball24/landing-page-fitness.git
-cd webfitness
+cd landing-page-fitness
 ```
 
 ### Install Dependencies
