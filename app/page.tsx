@@ -29,21 +29,21 @@ export default function FitnessLandingPage() {
       </header>
 
       {/* Hero Section */}
-      <section id="home" className="py-16">
-        <div className="container mx-auto px-6">
+      <section id="home" className="py-10 sm:py-14 lg:py-16">
+        <div className="container mx-auto px-4 sm:px-6">
           {/* Full Width Image - Kettlebells */}
-          <div className="mb-12">
+          <div className="mb-8 sm:mb-10 lg:mb-12">
             <img
               src="/kettlebells.jpeg"
               alt="Kettlebells on gym floor"
-              className="w-full h-96 object-cover rounded-lg"
+              className="w-full h-48 sm:h-72 md:h-80 lg:h-96 object-cover rounded-lg"
             />
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-12 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-10 lg:gap-12 items-start">
             {/* Left Content - Title */}
             <div>
-              <h1 className="text-4xl lg:text-6xl font-bold text-white mb-8 leading-tight">
+              <h1 className="text-2xl sm:text-4xl lg:text-6xl font-bold text-white mb-4 sm:mb-8 leading-tight text-center lg:text-left">
                 We Dont Just Practice
                 <br />
                 But Calms The Soul
@@ -52,7 +52,7 @@ export default function FitnessLandingPage() {
 
             {/* Right Content - Lorem Ipsum */}
             <div>
-              <p className="text-gray-300 text-lg leading-relaxed">
+              <p className="text-gray-300 text-base sm:text-lg leading-relaxed text-center lg:text-left">
                 Lorem ipsum dolor sit amet consectetur. Eu diam nulla netus in maecenas viverra. Fermentum sed amet eget
                 elementum volutpat amet augue.
               </p>
@@ -62,78 +62,78 @@ export default function FitnessLandingPage() {
       </section>
 
       {/* Full Width Features - Text miring sesuai referensi */}
-      <section className="bg-cyan-400 py-6">
-        <div className="flex gap-0 w-full">
-          <div className="flex-1 py-6 px-6 text-center">
-            <div className="feature-text">Beginner Friendly</div>
+      <section className="bg-cyan-400 py-4 sm:py-6">
+        <div className="flex flex-col sm:flex-row gap-0 w-full">
+          <div className="flex-1 py-4 sm:py-6 px-4 sm:px-6 text-center">
+            <div className="feature-text text-base sm:text-lg lg:text-xl font-semibold">Beginner Friendly</div>
           </div>
-          <div className="flex-1 py-6 px-6 text-center">
-            <div className="feature-text">Solid Community</div>
+          <div className="flex-1 py-4 sm:py-6 px-4 sm:px-6 text-center">
+            <div className="feature-text text-base sm:text-lg lg:text-xl font-semibold">Solid Community</div>
           </div>
-          <div className="flex-1 py-6 px-6 text-center">
-            <div className="feature-text">Free Consultation</div>
+          <div className="flex-1 py-4 sm:py-6 px-4 sm:px-6 text-center">
+            <div className="feature-text text-base sm:text-lg lg:text-xl font-semibold">Free Consultation</div>
           </div>
-          <div className="flex-1 py-6 px-6 text-center">
-            <div className="feature-text">Trainer Professional</div>
+          <div className="flex-1 py-4 sm:py-6 px-4 sm:px-6 text-center">
+            <div className="feature-text text-base sm:text-lg lg:text-xl font-semibold">Trainer Professional</div>
           </div>
         </div>
       </section>
 
       {/* About Section - Background dengan warna #1391AD40 */}
-      <section id="about" className="py-16" style={{ backgroundColor: "#1391AD40" }}>
-        <div className="container mx-auto px-0 lg:px-6">
+      <section id="about" className="py-10 sm:py-14 lg:py-16" style={{ backgroundColor: "#1391AD40" }}>
+        <div className="container mx-auto px-2 sm:px-4 lg:px-6">
           {/* Top image with play button */}
           <div className="relative mb-0 lg:mb-0">
             <img
               src="/gym-hero.jpeg"
               alt="Person doing squats in modern gym"
-              className="w-full h-80 lg:h-96 object-cover rounded-t-2xl lg:rounded-lg"
+              className="w-full h-48 sm:h-64 md:h-80 lg:h-96 object-cover rounded-t-2xl lg:rounded-lg"
             />
             <div className="absolute inset-0 flex items-center justify-center">
-              <button className="bg-red-500 hover:bg-red-600 rounded-full p-4 transition-colors shadow-lg">
-                <Play className="w-8 h-8 text-white fill-white ml-1" />
+              <button className="bg-red-500 hover:bg-red-600 rounded-full p-3 sm:p-4 transition-colors shadow-lg">
+                <Play className="w-7 h-7 sm:w-8 sm:h-8 text-white fill-white ml-1" />
               </button>
             </div>
           </div>
 
           {/* Content below image, dark background, two columns */}
-          <div className="bg-[#0B232A] rounded-b-2xl lg:rounded-lg px-6 py-12 grid lg:grid-cols-2 gap-8 items-center">
+          <div className="bg-[#0B232A] rounded-b-2xl lg:rounded-lg px-4 sm:px-6 py-8 sm:py-12 grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 items-center">
             {/* Left Content */}
             <div className="flex flex-col justify-center h-full">
-              <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">Fitness is The Best Solution For You</h2>
-              <p className="text-gray-100 mb-8 leading-relaxed">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-4 sm:mb-6">Fitness is The Best Solution For You</h2>
+              <p className="text-gray-100 mb-6 sm:mb-8 leading-relaxed text-base sm:text-lg">
                 Lorem ipsum dolor sit amet consectetur. Eu diam nulla netus in maecenas viverra. Fermentum sed amet eget
                 elementum volutpat amet augue. Lorem ipsum dolor sit amet consectetur. Eu diam nulla netus in maecenas
                 viverra. Fermentum sed amet eget elementum volutpat amet augue.
               </p>
-              <button className="self-start bg-cyan-400 text-white px-8 py-3 rounded-full font-semibold hover:bg-cyan-500 transition-colors shadow-md">
+              <button className="self-start bg-cyan-400 text-white px-6 sm:px-8 py-2 sm:py-3 rounded-full font-semibold hover:bg-cyan-500 transition-colors shadow-md">
                 Contact Now
               </button>
             </div>
 
             {/* Right Content - Contact Card */}
-            <div className="bg-white rounded-2xl p-8 text-black shadow-lg w-full max-w-md mx-auto">
-              <h3 className="text-xl font-bold mb-6 text-black">Contact Us!</h3>
-              <div className="space-y-6">
-                <div className="flex items-center space-x-4">
-                  <Mail className="w-6 h-6 text-black" />
+            <div className="bg-white rounded-2xl p-4 sm:p-8 text-black shadow-lg w-full max-w-md mx-auto">
+              <h3 className="text-lg sm:text-xl font-bold mb-4 sm:mb-6 text-black">Contact Us!</h3>
+              <div className="space-y-4 sm:space-y-6">
+                <div className="flex items-center space-x-3 sm:space-x-4">
+                  <Mail className="w-5 h-5 sm:w-6 sm:h-6 text-black" />
                   <div>
-                    <span className="font-semibold text-base text-black block">Email</span>
-                    <span className="text-gray-600 text-sm block">ecotourtravelkarimunjawa@gmail.com</span>
+                    <span className="font-semibold text-sm sm:text-base text-black block">Email</span>
+                    <span className="text-gray-600 text-xs sm:text-sm block">ecotourtravelkarimunjawa@gmail.com</span>
                   </div>
                 </div>
-                <div className="flex items-center space-x-4">
-                  <Phone className="w-6 h-6 text-black" />
+                <div className="flex items-center space-x-3 sm:space-x-4">
+                  <Phone className="w-5 h-5 sm:w-6 sm:h-6 text-black" />
                   <div>
-                    <span className="font-semibold text-base text-black block">Phone</span>
-                    <span className="text-gray-600 text-sm block">0858-0033-1815</span>
+                    <span className="font-semibold text-sm sm:text-base text-black block">Phone</span>
+                    <span className="text-gray-600 text-xs sm:text-sm block">0858-0033-1815</span>
                   </div>
                 </div>
-                <div className="flex items-center space-x-4">
-                  <MapPin className="w-6 h-6 text-black" />
+                <div className="flex items-center space-x-3 sm:space-x-4">
+                  <MapPin className="w-5 h-5 sm:w-6 sm:h-6 text-black" />
                   <div>
-                    <span className="font-semibold text-base text-black block">Address</span>
-                    <span className="text-gray-600 text-sm block">Jl. Bukit Kapuran, Karimunjawa, RT 04<br/>RW 01 Jepara, Jawa Tengah, Indonesia</span>
+                    <span className="font-semibold text-sm sm:text-base text-black block">Address</span>
+                    <span className="text-gray-600 text-xs sm:text-sm block">Jl. Bukit Kapuran, Karimunjawa, RT 04<br/>RW 01 Jepara, Jawa Tengah, Indonesia</span>
                   </div>
                 </div>
               </div>
@@ -234,25 +234,25 @@ export default function FitnessLandingPage() {
       </section>
 
       {/* Footer CTA - Menggunakan font PT */}
-      <section className="py-6" style={{ backgroundColor: "#1AB9BF" }}>
-        <div className="container mx-auto px-6 flex items-center justify-between">
-          <h2 className="text-2xl lg:text-3xl font-bold text-white pt-font">Join Our Member Now!</h2>
-          <button className="bg-yellow-400 text-white px-6 py-2 rounded-lg font-bold hover:bg-yellow-500 transition-colors">
+      <section className="py-4 sm:py-6" style={{ backgroundColor: "#1AB9BF" }}>
+        <div className="container mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-3">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white pt-font text-center sm:text-left">Join Our Member Now!</h2>
+          <button className="bg-yellow-400 text-white px-4 sm:px-6 py-2 rounded-lg font-bold hover:bg-yellow-500 transition-colors">
             Contact
           </button>
         </div>
       </section>
 
       {/* Footer - Sesuai referensi dengan logo baru */}
-      <footer className="py-8" style={{ backgroundColor: "#1AB9BFA1" }}>
-        <div className="container mx-auto px-6">
+      <footer className="py-6 sm:py-8" style={{ backgroundColor: "#1AB9BFA1" }}>
+        <div className="container mx-auto px-4 sm:px-6">
           {/* Logo dan Navigation */}
-          <div className="text-center mb-6">
-            <div className="flex items-center justify-center space-x-3 mb-4">
-              <img src="/fitness-logo-footer.png" alt="Fitness Logo" className="w-12 h-12" />
-              <span className="text-2xl font-bold text-white logo-font">Fitness</span>
+          <div className="text-center mb-4 sm:mb-6">
+            <div className="flex items-center justify-center space-x-2 sm:space-x-3 mb-2 sm:mb-4">
+              <img src="/fitness-logo-footer.png" alt="Fitness Logo" className="w-10 h-10 sm:w-12 sm:h-12" />
+              <span className="text-xl sm:text-2xl font-bold text-white logo-font">Fitness</span>
             </div>
-            <div className="flex justify-center space-x-8 mb-6">
+            <div className="flex flex-wrap justify-center gap-4 sm:gap-8 mb-4 sm:mb-6">
               <a href="#home" className="text-white hover:text-yellow-400 transition-colors">
                 Home
               </a>
@@ -272,8 +272,8 @@ export default function FitnessLandingPage() {
           </div>
 
           {/* Copyright */}
-          <div className="text-center border-t border-white/20 pt-4">
-            <p className="text-white text-sm">2023 Fitness. All rights reserved</p>
+          <div className="text-center border-t border-white/20 pt-2 sm:pt-4">
+            <p className="text-white text-xs sm:text-sm">2023 Fitness. All rights reserved</p>
           </div>
         </div>
       </footer>
